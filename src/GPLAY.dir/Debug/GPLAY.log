@@ -1,0 +1,2 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1889,5): warning : The referenced project 'C:\work\ge\test\GPlayEngine\ZERO_CHECK.vcxproj' does not exist.
+  GPLAY.vcxproj -> C:\work\ge\test\GPlayEngine\output\lib\gplay.lib

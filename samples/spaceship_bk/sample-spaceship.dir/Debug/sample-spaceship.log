@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1889,5): warning : The referenced project 'C:\work\ge\test\GPlayEngine\ZERO_CHECK.vcxproj' does not exist.
+  Building Custom Rule C:/work/ge/test/GPlayEngine/samples/spaceship/CMakeLists.txt
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(1889,5): warning : The referenced project 'C:\work\ge\test\GPlayEngine\ZERO_CHECK.vcxproj' does not exist.
+  SpaceshipGame.cpp
+    正在创建库 C:/work/ge/test/GPlayEngine/output/lib/sample-spaceship.lib 和对象 C:/work/ge/test/GPlayEngine/output/lib/sample-spaceship.exp
+  sample-spaceship.vcxproj -> C:\work\ge\test\GPlayEngine\output\bin\sample-spaceship.exe

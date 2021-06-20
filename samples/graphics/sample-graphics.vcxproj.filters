@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\SamplesGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\DrawStress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\DynamicMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Instancing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Sponza.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\FirstPersonCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\RenderToTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\ImGuiTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\SparkDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Transparency.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\ShaderReload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\EventSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\LightsAndShadows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\DeferredTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\DebugDraw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\EditorSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\SamplesGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\DrawStress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\DynamicMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Instancing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\FirstPersonCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\RenderToTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\ImGuiTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\graphics\src\SparkDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\ge\test\GPlayEngine\samples\graphics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D93C3856-271A-3C83-9363-4EEE5B1E0528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BE5FD4BC-4629-3420-8D18-67E59AB76B56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

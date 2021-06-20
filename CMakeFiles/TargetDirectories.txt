@@ -1,0 +1,16 @@
+C:/work/ge/test/GPlayEngine/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/CMakeFiles/ZERO_CHECK.dir
+C:/work/ge/test/GPlayEngine/src/CMakeFiles/GPLAY.dir
+C:/work/ge/test/GPlayEngine/src/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/samples/minimal/CMakeFiles/sample-minimal.dir
+C:/work/ge/test/GPlayEngine/samples/minimal/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/samples/browser/CMakeFiles/sample-browser.dir
+C:/work/ge/test/GPlayEngine/samples/gplay-flappy/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/samples/spaceship/CMakeFiles/sample-spaceship.dir
+C:/work/ge/test/GPlayEngine/samples/spaceship/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/samples/racer/CMakeFiles/sample-racer.dir
+C:/work/ge/test/GPlayEngine/samples/racer/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/samples/character/CMakeFiles/sample-character.dir
+C:/work/ge/test/GPlayEngine/samples/character/CMakeFiles/ALL_BUILD.dir
+C:/work/ge/test/GPlayEngine/samples/graphics/CMakeFiles/sample-graphics.dir
+C:/work/ge/test/GPlayEngine/samples/graphics/CMakeFiles/ALL_BUILD.dir

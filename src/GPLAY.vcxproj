@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CE2111CE-3CC5-3B66-9217-9A4C1A79E915}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>GPLAY</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\work\ge\test\GPlayEngine\output\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GPLAY.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gplay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\work\ge\test\GPlayEngine\output\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GPLAY.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gplay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\work\ge\test\GPlayEngine\output\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GPLAY.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gplay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\work\ge\test\GPlayEngine\output\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GPLAY.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gplay</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GP_NO_LUA_BINDINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GP_NO_LUA_BINDINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GP_NO_LUA_BINDINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GP_NO_LUA_BINDINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GP_NO_LUA_BINDINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GP_NO_LUA_BINDINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4305</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GP_NO_LUA_BINDINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GP_NO_LUA_BINDINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty\bx\compat\msvc;C:\work\ge\test\GPlayEngine\output\include\gplayengine;C:\work\ge\test\GPlayEngine\output\include\gplayengine\thirdparty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\ge\test\GPlayEngine\src\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/work/ge/test/GPlayEngine/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/ge/test/GPlayEngine -BC:/work/ge/test/GPlayEngine --check-stamp-file C:/work/ge/test/GPlayEngine/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\work\ge\test\GPlayEngine\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/work/ge/test/GPlayEngine/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/ge/test/GPlayEngine -BC:/work/ge/test/GPlayEngine --check-stamp-file C:/work/ge/test/GPlayEngine/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\work\ge\test\GPlayEngine\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/work/ge/test/GPlayEngine/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/ge/test/GPlayEngine -BC:/work/ge/test/GPlayEngine --check-stamp-file C:/work/ge/test/GPlayEngine/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\work\ge\test\GPlayEngine\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/work/ge/test/GPlayEngine/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/work/ge/test/GPlayEngine -BC:/work/ge/test/GPlayEngine --check-stamp-file C:/work/ge/test/GPlayEngine/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\work\ge\test\GPlayEngine\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ai\AIAgent.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ai\AIController.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ai\AIMessage.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ai\AIState.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ai\AIStateMachine.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\animation\Animation.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\animation\AnimationClip.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\animation\AnimationController.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\animation\AnimationTarget.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\animation\AnimationValue.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\audio\AudioBuffer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\audio\AudioController.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\audio\AudioListener.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\audio\AudioSource.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\Bundle.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\DebugNew.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\FileSystem.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\FileWatcher.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\Game.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\Logger.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\Platform.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\PlatformSDL2.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\Properties.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\Ref.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\gplay3d-main-android.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\gplay3d-main-emscripten.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\gplay3d-main-linux.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\core\gplay3d-main-windows.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\editor\InGameEditor.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\events\EventManager.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\events\EventManagerBase.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Camera.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\DebugDraw.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Drawable.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Effect.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Font.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\FrameBuffer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\HeightField.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Image.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Joint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Light.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Material.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\MaterialParameter.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Mesh.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\MeshBatch.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\MeshPart.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\MeshSkin.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Model.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Node.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\ParticleEmitter.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Pass.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\RenderState.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Scene.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\SceneLoader.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\ScreenDisplayer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Sprite.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\SpriteBatch.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Technique.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Terrain.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\TerrainPatch.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Text.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\Texture.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\TileSet.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\VertexFormat.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\graphics\View.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\input\Gamepad.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\input\JoystickControl.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\BoundingBox.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\BoundingSphere.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Curve.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Frustum.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\MathUtil.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Matrix.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Plane.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Quaternion.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Ray.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Rectangle.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Transform.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Vector2.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Vector3.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\math\Vector4.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsCharacter.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsCollisionObject.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsCollisionShape.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsConstraint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsController.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsFixedConstraint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsGenericConstraint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsGhostObject.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsHingeConstraint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsRigidBody.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsSocketConstraint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsSpringConstraint.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsVehicle.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\physics\PhysicsVehicleWheel.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXGpuProgram.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXImGui.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXIndexBuffer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXRenderer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXTexture.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXUniform.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\BGFXVertexBuffer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\GeometryBuffer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\renderer\MemoryBuffer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\script\Script.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\script\ScriptController.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\script\ScriptTarget.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\sparkparticles\SparkBaseRenderer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\sparkparticles\SparkParticleEmitter.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\sparkparticles\SparkQuadRenderer.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\sparkparticles\SparkUtility.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\AbsoluteLayout.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Button.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\CheckBox.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Container.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Control.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\ControlFactory.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\FlowLayout.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Form.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\ImageControl.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Label.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Layout.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\RadioButton.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Slider.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\TextBox.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\Theme.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\ThemeStyle.cpp" />
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\src\ui\VerticalLayout.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\work\ge\test\GPlayEngine\ZERO_CHECK.vcxproj">
+      <Project>{B5A64FEF-A56D-3573-84DC-D804C20ADD2B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

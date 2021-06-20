@@ -1,0 +1,2 @@
+C:\work\ge\test\GPlayEngine\output\lib\gplay.pdb
+C:\work\ge\test\GPlayEngine\src\GPLAY.dir\Debug\gplay.pdb

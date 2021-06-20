@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\Audio3DSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\AudioSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\BillboardSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\FirstPersonCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\FontSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\FormsSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\GamepadSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\GestureSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\Grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\InputSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\LightSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\MeshBatchSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\MeshPrimitiveSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\ParticlesSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\PhysicsCollisionObjectSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\PostProcessSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\Sample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SamplesGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SceneCreateSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SceneLoadSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SpriteBatchSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SpriteSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\TerrainSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\TextureSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\TriangleSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\work\ge\test\GPlayEngine\samples\browser\src\WaterSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\Audio3DSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\AudioSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\BillboardSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\FirstPersonCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\FontSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\FormsSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\GamepadSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\GestureSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\Grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\InputSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\LightSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\MeshBatchSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\MeshPrimitiveSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\ParticlesSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\PhysicsCollisionObjectSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\PostProcessSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SamplesGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SceneCreateSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SceneLoadSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SpriteBatchSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\SpriteSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\TerrainSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\TextureSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\TriangleSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\work\ge\test\GPlayEngine\samples\browser\src\WaterSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\work\ge\test\GPlayEngine\samples\browser\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D93C3856-271A-3C83-9363-4EEE5B1E0528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{BE5FD4BC-4629-3420-8D18-67E59AB76B56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
